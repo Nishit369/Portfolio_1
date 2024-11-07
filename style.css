@@ -47,8 +47,8 @@ html, body {
 }
 canvas.webgl {
   display: block; 
-  width: 100%; 
-  height: 100%;
+  width: 100vw; 
+  height: 100vh;
 }
 
 #console {
@@ -274,77 +274,73 @@ canvas.webgl {
     font-size: 1.5rem; 
     color: #66FCF1; 
 }
-
 #projects {
-
   color: #66FCF1;
 }
 
 #projects-title {
-  display:flex;
+  display: flex;
   flex-direction: flex-start;
   flex-wrap: wrap;
-  font-size: 2.5rem;
-    font-weight: bolder;
-    margin-bottom: 50px;
-  
+  font-size: 2.5vw; 
+  font-weight: bolder;
+  margin-bottom: 5.56vh;
 }
 
 #project-list {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10vh;
   flex-wrap: wrap;
-  perspective: 1000px;
-  margin-bottom: 80px;
-
+  perspective: 111.11vh; 
+  margin-bottom: 8.88vh;
 }
 
 .project {
   position: relative;
   display: flex;
+  height: 27.78vh;
   align-items: center;
   background-color: #1F2833;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 1.11vw; 
+  box-shadow: 0 0.89vh 1.78vh rgba(0, 0, 0, 0.3); 
   transform-style: preserve-3d;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   cursor: pointer;
   color: #d7d9db;
   backface-visibility: hidden;
-
 }
-.project-link{
-  position:absolute;
-  top:85%;
-  left:90%;
+
+.project-link {
+  position: absolute;
+  top: 85%;
+  left: 90%;
   color: rgb(255, 255, 255);
-  font-size: 1rem;
+  font-size: 1vw;
   font-weight: bold;
   text-decoration: none;
 }
-.project-link:hover{
+
+.project-link:hover {
   color: rgb(255, 255, 255);
   text-decoration: underline;
-  
 }
+
 .project:hover {
-  
-  transform: rotateY(10deg) ;
-  box-shadow: 0 15px 30px rgba(45, 252, 255, 0.946);
+  transform: rotateY(10deg);
+  box-shadow: 0 1.67vh 3.33vh rgba(45, 252, 255, 0.946);
 }
 
 .project img {
-  min-width: 450px;
-  height: 250px;
-  border-radius: 8px;
-  margin-right: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  min-width: 25vw; 
+  height: 30vh;
+  border-radius: 0.89vw; 
+  margin-right: 2.22vw; 
+  box-shadow: 0 0.44vh 1.11vh rgba(0, 0, 0, 0.5); 
   transition: transform 0.3s;
 }
 
 .project:hover .project img {
-
   transform: scale(1.05);
 }
 
@@ -355,14 +351,13 @@ canvas.webgl {
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1.67vw; 
   font-weight: bold;
   color: #66FCF1;
-  margin-bottom: 25px;
-}
+  margin-bottom: 2.78vh; 
 
 .project-description {
-  font-size: 1rem;
+  font-size: 1vw; 
   color: #C5C6C7;
 }
 
