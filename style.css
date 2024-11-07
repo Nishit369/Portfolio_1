@@ -39,8 +39,8 @@ html, body {
 
 .model-container {
   position: absolute;
-  right: 5%;
-  top: 15%;
+  right: 5vw;
+  top: 15vh;
   width: 25vw;
   height: 50vh;
   overflow: hidden;
