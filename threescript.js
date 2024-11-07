@@ -186,7 +186,7 @@ void main() {
 let mixer = null;
 
 gltfLoader.load(
-  "/Nishit.glb",
+  "./stack/Nishit.glb",
   (gltf) => {
     // Model successfully loaded
     const model = gltf.scene;
