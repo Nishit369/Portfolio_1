@@ -41,8 +41,8 @@ html, body {
   position: absolute;
   right: 5%;
   top: 15%;
-  width: 25%;
-  height: 50%;
+  width: 25vw;
+  height: 50vh;
   overflow: hidden;
 }
 canvas.webgl {
