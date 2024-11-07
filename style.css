@@ -338,7 +338,7 @@ canvas.webgl {
 }
 
 .project img {
-  min-width: 450px;
+  max-width: 450px;
   height: 250px;
   border-radius: 8px;
   margin-right: 20px;
