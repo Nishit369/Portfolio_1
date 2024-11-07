@@ -279,6 +279,7 @@ canvas.webgl {
 #projects {
 
   color: #66FCF1;
+  
 }
 
 #projects-title {
@@ -302,6 +303,7 @@ canvas.webgl {
 }
 
 .project {
+  margin-right: 50px;
   position: relative;
   display: flex;
   align-items: center;
@@ -350,6 +352,7 @@ canvas.webgl {
 }
 
 .project-info {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   text-align: left;
