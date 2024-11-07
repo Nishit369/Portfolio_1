@@ -41,11 +41,10 @@ html, body {
   position: absolute;
   right: 5%;
   top: 15%;
-  width: 25%; 
-  height: 50%; 
-  overflow: hidden; 
+  width: 25%;
+  height: 50%;
+  overflow: hidden;
 }
-
 canvas.webgl {
   display: block; 
   width: 100%; 
@@ -385,6 +384,36 @@ canvas.webgl {
     #about {
         font-size: 1.2rem; 
     }
+}
+@media (max-width: 1024px) {
+  .model-container {
+    right: 2%;
+    top: 10%;
+    width: 35%; /* Adjust width as needed */
+    height: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .model-container {
+    right: 2%;
+    top: 8%;
+    width: 50%; /* Further adjust for smaller screens */
+    height: 35%;
+  }
+}
+
+@media (max-width: 480px) {
+  .model-container {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%; /* Full width for very small screens */
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 
