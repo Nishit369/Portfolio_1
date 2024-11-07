@@ -75,7 +75,7 @@ canvas.webgl {
 #about {
     font-size: 1.45rem;
     margin-bottom: 80px;
-    max-width: 80%;
+    max-width: 50%;
 }
 
 #contact{
@@ -352,7 +352,7 @@ canvas.webgl {
 }
 
 .project-info {
-  width: 100vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -412,9 +412,9 @@ canvas.webgl {
     position: relative;
     right: 0;
     top: 0;
-    width: 80vw; /* Wider on small screens */
-    height: 50vh; /* Height adjusted for better visibility */
-    min-height: 200px; /* Ensures a minimum height */
+    width: 80vw; 
+    height: 50vh; 
+    min-height: 200px; 
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -424,10 +424,10 @@ canvas.webgl {
 
 @media (max-width: 320px) {
   .model-container {
-    width: 90vw; /* Close to full width for very small screens */
+    width: 90vw; 
     height: 45vh;
     z-index : -1;
-    min-height: 180px; /* Adjust minimum height for very small screens */
+    min-height: 180px; 
   }
 }
 
