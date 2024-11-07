@@ -274,73 +274,77 @@ canvas.webgl {
     font-size: 1.5rem; 
     color: #66FCF1; 
 }
+
 #projects {
+
   color: #66FCF1;
 }
 
 #projects-title {
-  display: flex;
+  display:flex;
   flex-direction: flex-start;
   flex-wrap: wrap;
-  font-size: 2.5vw; 
-  font-weight: bolder;
-  margin-bottom: 5.56vh;
+  font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+  
 }
 
 #project-list {
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  gap: 40px;
   flex-wrap: wrap;
-  perspective: 111.11vh; 
-  margin-bottom: 8.88vh;
+  perspective: 1000px;
+  margin-bottom: 80px;
+
 }
 
 .project {
   position: relative;
   display: flex;
-  height: 27.78vh;
   align-items: center;
   background-color: #1F2833;
-  border-radius: 1.11vw; 
-  box-shadow: 0 0.89vh 1.78vh rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   transform-style: preserve-3d;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   cursor: pointer;
   color: #d7d9db;
   backface-visibility: hidden;
-}
 
-.project-link {
-  position: absolute;
-  top: 85%;
-  left: 90%;
+}
+.project-link{
+  position:absolute;
+  top:85%;
+  left:90%;
   color: rgb(255, 255, 255);
-  font-size: 1vw;
+  font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
 }
-
-.project-link:hover {
+.project-link:hover{
   color: rgb(255, 255, 255);
   text-decoration: underline;
+  
 }
-
 .project:hover {
-  transform: rotateY(10deg);
-  box-shadow: 0 1.67vh 3.33vh rgba(45, 252, 255, 0.946);
+  
+  transform: rotateY(10deg) ;
+  box-shadow: 0 15px 30px rgba(45, 252, 255, 0.946);
 }
 
 .project img {
-  min-width: 25vw; 
-  height: 30vh;
-  border-radius: 0.89vw; 
-  margin-right: 2.22vw; 
-  box-shadow: 0 0.44vh 1.11vh rgba(0, 0, 0, 0.5); 
+  min-width: 450px;
+  height: 250px;
+  border-radius: 8px;
+  margin-right: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s;
 }
 
 .project:hover .project img {
+
   transform: scale(1.05);
 }
 
@@ -351,14 +355,14 @@ canvas.webgl {
 }
 
 .project-title {
-  font-size: 1.67vw; 
+  font-size: 1.5rem;
   font-weight: bold;
   color: #66FCF1;
-  margin-bottom: 2.78vh; 
+  margin-bottom: 25px;
 }
 
 .project-description {
-  font-size: 1vw; 
+  font-size: 1rem;
   color: #C5C6C7;
 }
 
@@ -385,8 +389,8 @@ canvas.webgl {
   .model-container {
     right: 2%;
     top: 10%;
-    width: 35%; /* Adjust width as needed */
-    height: 40%;
+    width: 35vw;
+    height: 40vh;
   }
 }
 
@@ -394,22 +398,34 @@ canvas.webgl {
   .model-container {
     right: 2%;
     top: 8%;
-    width: 50%; /* Further adjust for smaller screens */
-    height: 35%;
+    width: 50vw;
+    height: 35vh;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .model-container {
     position: relative;
     right: 0;
     top: 0;
-    width: 100%; /* Full width for very small screens */
-    height: auto;
+    width: 80vw; /* Wider on small screens */
+    height: 50vh; /* Height adjusted for better visibility */
+    min-height: 200px; /* Ensures a minimum height */
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 }
+
+@media (max-width: 320px) {
+  .model-container {
+    width: 90vw; /* Close to full width for very small screens */
+    height: 45vh;
+    z-index : -1;
+    min-height: 180px; /* Adjust minimum height for very small screens */
+  }
+}
+
 
 
