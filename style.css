@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Ubuntu:wght@300..700&display=swap');
 
 html {
-    margin: 60px;
+    margin: 20px;
     padding: 0;
 }
 
@@ -53,10 +53,10 @@ body {
 
 .model-container {
     position: absolute;
-    right: calc(5vw + 40px);
+    right: calc(3vw + 40px);
     top: 15vh;
-    width: min(25vw, 400px);
-    height: min(50vh, 500px);
+    width: min(20vw, 400px);
+    height: min(45vh, 500px);
     overflow: hidden;
 }
 
