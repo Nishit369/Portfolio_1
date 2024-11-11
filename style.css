@@ -34,7 +34,7 @@ body {
 }
 
 #name {
-    font-size: clamp(1.5rem, 3vw, 4rem);
+    font-size: clamp(2rem, 3vw, 4rem);
     font-weight: bolder;
     margin-bottom: 0;
 }
@@ -46,12 +46,13 @@ body {
 #text-container {
     display: flex;
     align-items: center;
-    font-size: clamp(0.5rem, 2vw, 2.5rem);
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
     margin-right: auto;
     margin-bottom: 50px;
 }
 
 .model-container {
+    margin-right: 10px;
     position: absolute;
     right: calc(3vw + 40px);
     top: 15vh;
@@ -75,7 +76,7 @@ canvas.webgl {
     animation: blink 0.6s step-start infinite;
     color: #66FCF1;
     font-size: inherit;
-    /* margin-bottom: 20px; */
+  
 }
 
 #content {
@@ -85,7 +86,7 @@ canvas.webgl {
 }
 
 #about {
-    font-size: clamp(1.1rem, 2vw, 1.45rem);
+    font-size: clamp(1.2rem, 2vw, 1.45rem);
     margin-bottom: 80px;
     width: min(100%, 550px);
 }
@@ -95,7 +96,7 @@ canvas.webgl {
 }
 
 #contactme {
-    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: bolder;
     margin-bottom: 50px;
 }
@@ -211,7 +212,7 @@ canvas.webgl {
 }
 
 #skills-title {
-    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: bolder;
     margin-bottom: 50px;
 }
@@ -263,7 +264,7 @@ canvas.webgl {
 }
 
 #projects-title {
-    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: bolder;
     margin-bottom: 50px;
 }
