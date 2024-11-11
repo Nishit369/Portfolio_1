@@ -54,7 +54,7 @@ body {
 .model-container {
     margin-right: 1px;
     position: absolute;
-    right: calc(3vw + 40px);
+    right: calc(3vw);
     top: 15vh;
     width: min(20vw, 400px);
     height: min(45vh, 500px);
