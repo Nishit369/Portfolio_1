@@ -59,10 +59,10 @@ body {
     position: absolute;
     top: 10vh;
     right: 2%;
-    width: min(20vw, 400px);
+    width: 50vw;
     height: min(45vh, 500px);
     overflow: hidden;
-    background-color: black;
+    background-color: transparent;
 }
 
 canvas.webgl {
@@ -395,7 +395,7 @@ body::-webkit-scrollbar-thumb:hover {
     .model-container {
         right: calc(2% + 40px);
         top: 10%;
-        width: min(35vw, 350px);
+        width: 50vw;
         height: min(40vh, 400px);
     }
 }
@@ -409,13 +409,13 @@ body::-webkit-scrollbar-thumb:hover {
     .model-container {
         right: calc(2% + 20px);
         top: 8%;
-        width: min(50vw, 300px);
+        width: 20vw;
         height: min(35vh, 350px);
     }
 
     .project {
         flex-direction: column;
-        width: calc(100% - 20px);
+        width:5vw;
         margin-right: 20px;
     }
 
@@ -445,7 +445,7 @@ body::-webkit-scrollbar-thumb:hover {
         position: relative;
         right: 0;
         top: 0;
-        width: min(80vw, 250px);
+        width: 50vw;
         height: min(50vh, 300px);
         margin: 20px auto;
     }
