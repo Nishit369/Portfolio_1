@@ -60,7 +60,7 @@ body {
 .model-container {
     /* margin-top: 0vh !important; */
     position: absolute;
-    top: 10vh;
+    top: 0vh;
     right: 2%;
     width: 50vw;
     height: min(45vh, 500px);
