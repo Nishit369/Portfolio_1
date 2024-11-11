@@ -3,6 +3,7 @@
 html {
     margin: 20px;
     padding: 0;
+    
 }
 
 body {
@@ -15,13 +16,14 @@ body {
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden;
+    
 }
 
 .main-wrapper {
     width: 100%;
     max-width: calc(100% - 20px);
     margin: 0 auto;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     position: relative;
     overflow-x: hidden;
 }
@@ -29,7 +31,7 @@ body {
 #header {
     position: relative;
     border-radius: 25px;
-    margin-top: min(10%, 80px);
+    margin-top: 1vh !important;
     width: 100%;
 }
 
@@ -56,6 +58,7 @@ body {
 } */
 
 .model-container {
+    /* margin-top: 0vh !important; */
     position: absolute;
     top: 10vh;
     right: 2%;
@@ -91,8 +94,8 @@ canvas.webgl {
 }
 
 #about {
-    font-size: clamp(1.2rem, 2vw, 1.45rem);
-    margin-bottom: 80px;
+    font-size: clamp(0.85rem, 2vw, 1.45rem);
+    margin-bottom: 50px;
     width: min(100%, 550px);
 }
 
