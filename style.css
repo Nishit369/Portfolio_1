@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Ubuntu:wght@300..700&display=swap');
 
 html {
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 #name {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 4rem);
     font-weight: bolder;
     margin-bottom: 0;
 }
@@ -46,7 +46,7 @@ body {
 #text-container {
     display: flex;
     align-items: center;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(0.5rem, 2vw, 2.5rem);
     margin-right: auto;
     margin-bottom: 20px;
 }
