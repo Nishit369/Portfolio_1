@@ -265,7 +265,7 @@ canvas.webgl {
 
 #projects {
     color: #66FCF1;
-    width: calc(80% - 40px);
+    width: 80vw;
 }
 
 #projects-title {
@@ -280,7 +280,7 @@ canvas.webgl {
     gap: 40px;
     perspective: 1000px;
     margin-bottom: 80px;
-    width: 100%;
+    width: 80vw;
     margin-right: 40px;
 }
 
@@ -297,7 +297,7 @@ canvas.webgl {
     color: #d7d9db;
     backface-visibility: hidden;
     padding: 20px;
-    width: calc(80% - 40px);
+    width: 80vw;
     margin-right: 40px;
 }
 
