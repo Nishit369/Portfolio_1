@@ -34,7 +34,7 @@ body {
 }
 
 #name {
-    font-size: clamp(2rem, 3vw, 4rem);
+    font-size: clamp(1.7rem, 3vw, 4rem);
     font-weight: bolder;
     margin-bottom: 0;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .model-container {
-    margin-right: 10px;
+    margin-right: 1px;
     position: absolute;
     right: calc(3vw + 40px);
     top: 15vh;
