@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Ubuntu:wght@300..700&display=swap');
 
 html {
-    margin: 20px;
+    margin: 60px;
     padding: 0;
 }
 
@@ -48,7 +48,7 @@ body {
     align-items: center;
     font-size: clamp(0.5rem, 2vw, 2.5rem);
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .model-container {
@@ -75,6 +75,7 @@ canvas.webgl {
     animation: blink 0.6s step-start infinite;
     color: #66FCF1;
     font-size: inherit;
+    /* margin-bottom: 20px; */
 }
 
 #content {
@@ -86,7 +87,7 @@ canvas.webgl {
 #about {
     font-size: clamp(1.1rem, 2vw, 1.45rem);
     margin-bottom: 80px;
-    width: min(100%, 800px);
+    width: min(100%, 550px);
 }
 
 #contact {
@@ -258,7 +259,7 @@ canvas.webgl {
 
 #projects {
     color: #66FCF1;
-    width: calc(100% - 40px);
+    width: calc(80% - 40px);
 }
 
 #projects-title {
@@ -290,7 +291,7 @@ canvas.webgl {
     color: #d7d9db;
     backface-visibility: hidden;
     padding: 20px;
-    width: calc(100% - 40px);
+    width: calc(80% - 40px);
     margin-right: 40px;
 }
 
@@ -315,7 +316,7 @@ canvas.webgl {
 }
 
 .project img {
-    width: min(100%, 450px);
+    width: min(80%, 450px);
     height: auto;
     aspect-ratio: 16/9;
     border-radius: 8px;
@@ -348,7 +349,6 @@ canvas.webgl {
     color: #C5C6C7;
 }
 
-/* Scrollbar styles */
 body::-webkit-scrollbar {
     width: clamp(8px, 2vw, 18px);
 }
