@@ -13,7 +13,8 @@ html, body {
 }
 
 body {
-    padding: 0 max(2%, min(5%, 40px));
+  padding: 0 max(2%, min(5%, 40px)) 0 max(2%, min(5%, 40px)); 
+  padding-right: calc(max(2%, min(5%, 40px)) + 20px);
 }
 
 #header {
@@ -43,7 +44,7 @@ body {
 
 .model-container {
     position: absolute;
-    right: 5vw;
+    right: calc(5vw + 20px); 
     top: 15vh;
     width: min(25vw, 400px);
     height: min(50vh, 500px);
@@ -96,8 +97,9 @@ canvas.webgl {
 }
 
 #content {
-    width: 100%;
-    max-width: 1400px;
+  width: 100%;
+  max-width: 1400px;
+  padding-right: 20px;
 }
 
 #about {
@@ -116,7 +118,6 @@ canvas.webgl {
     margin-bottom: 50px;
 }
 
-/* Preserve original button effects */
 .mybutton {
     margin: 0 20px;
     transform: skew(25deg);
@@ -132,7 +133,7 @@ canvas.webgl {
     margin-bottom: 12px;
 }
 
-/* Keep all original button effects */
+
 .mybutton:before {
     content: '';
     position: absolute;
@@ -170,7 +171,7 @@ canvas.webgl {
     transition: 1.1s ease-out;
 }
 
-/* Preserve all button hover effects */
+
 .mybutton:hover span {
     z-index: 1000;
     transition: .3s;
@@ -218,7 +219,6 @@ canvas.webgl {
     background-color: transparent;
 }
 
-/* Preserve skill image effects */
 .skill img {
     width: clamp(60px, 10vw, 100px);
     height: clamp(60px, 10vw, 100px);
@@ -254,6 +254,7 @@ canvas.webgl {
 }
 
 #project-list {
+  padding-right: 10px;
     display: flex;
     flex-direction: column;
     gap: 40px;
