@@ -370,6 +370,41 @@ canvas.webgl {
   color: #C5C6C7;
 }
 
+/* scrollbar */
+body {
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  width: 18px; 
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #66FCF1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background : radial-gradient(#356966, #3ce9d5); 
+  border: solid 3px rgb(103, 240, 255);
+}
+body::-webkit-scrollbar-thumb:hover {
+  background : radial-gradient(#77f6f0ee, #c9ffff); 
+}
+
+
+@media (max-width: 768px) {
+  body::-webkit-scrollbar {
+    width: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  body::-webkit-scrollbar {
+    width: 2px;
+  }
+}
+
+
 
 
 @media (max-width: 768px) {
