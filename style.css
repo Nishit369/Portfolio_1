@@ -12,6 +12,7 @@ html, body {
     flex-direction: column; 
     align-items: flex-start; 
     height: 100vh;
+    overflow-x: hidden; 
 }
 
 #header {
