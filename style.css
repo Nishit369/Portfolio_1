@@ -415,14 +415,14 @@ body::-webkit-scrollbar-thumb:hover {
 
     .project {
         flex-direction: column;
-        width:5vw;
+        width:60vw;
         margin-right: 20px;
     }
 
     .project img {
         margin-right: 0;
         margin-bottom: 20px;
-        width: 100%;
+        width: min(50vw, 450px);
     }
 
     #content, #skills, #projects {
