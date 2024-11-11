@@ -99,14 +99,13 @@ canvas.webgl {
     margin-bottom: 50px;
 }
 
-/* Button styles with preserved effects */
 .mybutton {
     margin: 0 20px;
     transform: skew(25deg);
     transform-style: preserve-3d;
     position: relative;
     list-style: none;
-    width: clamp(120px, 15vw, 150px);
+    width: clamp(120px, 15vw, 100px);
     height: clamp(36px, 5vh, 42px);
     border: none;
     background: transparent;
