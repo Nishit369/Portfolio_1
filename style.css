@@ -96,7 +96,7 @@ canvas.webgl {
 #about {
     font-size: clamp(0.85rem, 2vw, 1.45rem);
     margin-bottom: 50px;
-    width: min(100%, 550px);
+    width: 45vw;
 }
 
 #contact {
